@@ -1,0 +1,17 @@
+{
+  "name": "fittrack-29",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FitTrack 29 Android wrapper for the existing web app",
+  "scripts": {
+    "build:web": "mkdir -p www && cp index.html www/index.html && cp manifest.webmanifest www/manifest.webmanifest && cp sw.js www/sw.js",
+    "android:sync": "npm run build:web && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/core": "^6.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.1"
+  }
+}
