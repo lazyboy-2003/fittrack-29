@@ -1,0 +1,11 @@
+{
+  "name": "FitTrack 29",
+  "short_name": "FitTrack 29",
+  "description": "Daily fitness, water and workout tracking.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b1712",
+  "theme_color": "#0b1712",
+  "icons": []
+}
